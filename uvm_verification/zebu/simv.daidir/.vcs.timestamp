@@ -1,0 +1,156 @@
+0 
+25
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/global/apps/vcs_2020.03-SP2-9/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /global/apps/vcs_2020.03-SP2-9/linux64/lib/libvirsim.so /global/apps/vcs_2020.03-SP2-9/linux64/lib/liberrorinf.so /global/apps/vcs_2020.03-SP2-9/linux64/lib/libsnpsmalloc.so /global/apps/vcs_2020.03-SP2-9/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/global/apps/vcs_2020.03-SP2-9/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/global/apps/vcs_2020.03-SP2-9/include
+-Mxllcflags=
+-f ../source/sources.f
+-full64
+-gen_obj
+-picarchive
+-sverilog
+/global/apps/vcs_2020.03-SP2-9/linux64/bin/vcs1
+/global/apps/vcs_2020.03-SP2-9/etc/unizfe/verilog/zceiClockPort.v
+../source/sources.f
+105
+_LMFILES_=/global/etc/modules/files/eda/vcs/2020.03-SP2-9:/global/etc/modules/files/eda/verdi/2020.03-SP2-9:/global/etc/modules/files/eda/zebu_vs/2021.06:/global/etc/modules/files/eda/zebu/2020.03-SP1-3:/global/etc/modulefiles/freeware/opensource/gcc/7.3.0:/global/etc/modules/files/eda/synplicity/2021.09-SP2
+ZEBU_XIL_VIVADO_P4=/global/apps/zebu_2020.03-SP1-3/vivado_p4
+ZEBU_XIL_VIVADO_P3=/global/apps/zebu_2020.03-SP1-3/vivado_p3/ids_lite
+ZEBU_XIL_VIVADO_P2=/global/apps/zebu_2020.03-SP1-3/vivado_p2
+ZEBU_XIL_VIVADO=/global/apps/zebu_2020.03-SP1-3/vivado
+ZEBU_TRITON_ZS3=/global/apps/zebu_2020.03-SP1-3/triton_zs3
+ZEBU_ROOT=/global/apps/zebu_2020.03-SP1-3
+ZEBU_IP_ROOT=/global/apps/zebu_vs_2021.06/
+ZEBU_DRIVER_PATH=/global/apps/zebu_2020.03-SP1-3/drivers
+ZEBU_AURA_SW_HOME=/global/apps/zebu_2020.03-SP1-3/aura/sw
+ZEBU_AURA_FW_HOME=/global/apps/zebu_2020.03-SP1-3/aura/fw
+XDG_SESSION_ID=584
+XDG_RUNTIME_DIR=/run/user/10056068
+XDG_DATA_DIRS=/u/dipal/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=MATE
+VMR_MODE_FLAG=64
+VERDI_LIB=/global/apps/verdi_2020.03-SP2-9/share/PLI/VCS/LINUX64
+VERDI_HOME=/global/apps/verdi_2020.03-SP2-9
+VERDI_BITMODE=64-32
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/global/apps/vcs_2020.03-SP2-9
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+U_ROOT=/u
+U_REGRESS=/u/regress
+U_BENCH=/u/bench
+USE_SYSTEMD=false
+UNAME=/bin/uname
+TOOL_HOME=/global/apps/vcs_2020.03-SP2-9/linux64
+TCL_LIBRARY_PATH=/global/apps/zebu_2020.03-SP1-3/tcl
+TCL_LIBRARY=/global/apps/zebu_2020.03-SP1-3/tcl/tcl8.6
+SSH_AUTH_SOCK=/run/user/10056068/keyring/ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=37423
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCP/opt/clang-tc/llvm-7.1.0/linux64
+SHELL_SESSION_ID=f6edf9a1a5164000a28d86b99e08b55e
+SGE_ROOT=/remote/sge6/default
+SGE_QMASTER_PORT=534
+SGE_JSV_TIMEOUT=100
+SGE_EXECD_PORT=535
+SGE_CLUSTER_NAME=us01_uge865_zebutrain
+SGE_CELL=zebutrain
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/37422,unix/unix:/tmp/.ICE-unix/37422
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+REMOTECMD=qrsh -P zebucae -cwd -V -noshell -now no -verbose -l "mem_free=1G"
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PROXIMA_ROOT=/global/apps/zebu_2020.03-SP1-3
+PROFILEHOME=
+PROBE=/u/regress/INFRA_HOME/probe
+OVA_UUM=0
+OSTYPE=linux
+MODULE_VERSION_STACK=3.1.6
+MODULE_VERSION=3.1.6
+MODULES_RC=/global/etc/modules/modulesrc
+MODULES_PLATFORM=x86_64.Linux.3.10
+MODULESHOME=/global/etc/modules/3.1.6
+MODULEPATH=/global/cust_apps/modulefiles:/global/etc/modules/files/eda:/global/etc/modules/files/eda2:/global/etc/modules/files/flows:/global/cust_apps_sgip001/modulefiles:/global/snps_apps/modulefiles/eda:/global/export_control_apps/modulefiles/eda:/global/etc/modulefiles/freeware/opensource:/global/cust_apps_sgps001/lynx/admin/modulefiles/mc_servers:/global/script_depot/module:/global/etc/modules/files/usr_depot:/remote/vgeuclideproj1/modules:
+MATE_DESKTOP_SESSION_ID=this-is-deprecated
+LOADEDMODULES=vcs/2020.03-SP2-9:verdi/2020.03-SP2-9:zebu_vs/2021.06:zebu/2020.03-SP1-3:gcc/7.3.0:synplicity/2021.09-SP2
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_TIME=en_US.UTF-8
+LC_NUMERIC=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+LC_CTYPE=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+KRB5CCNAME=FILE:/tmp/krb5cc_10056068_2S9cqs
+KONSOLE_PROFILE_NAME=Shell
+KONSOLE_DBUS_WINDOW=/Windows/4
+KONSOLE_DBUS_SESSION=/Sessions/39
+KONSOLE_DBUS_SERVICE=:1.85
+KDEDIRS=/usr
+INFRA_HOME=/u/regress/INFRA_HOME
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GUESTFISH_RESTORE=\e[0m
+GUESTFISH_PS1=\[\e[1;32m\]><fs>\[\e[0;31m\] 
+GUESTFISH_OUTPUT=\e[0m
+GUESTFISH_INIT=\e[1;34m
+GTK_OVERLAY_SCROLLING=0
+GROUP=synopsys
+GPG_AGENT_INFO=/run/user/10056068/keyring/gpg:0:1
+GIO_LAUNCHED_DESKTOP_FILE_PID=38097
+GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/kde4/konsole.desktop
+GDM_LANG=en_US.UTF-8
+DEPOT_TOOLS_PATH=/depot/perforce:/depot/tools/ccollab/bin
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-LIiblWGLac,guid=57260bb3c777f9bd1667943362c46d21
+CVS_RSH=ssh
+CTX_REMOTE_DISPLAY=us01odcvde38511:120.0
+COLORFGBG=15;0
+CITRIX_SESSION_ID=2
+CITRIX_REMOTE_DISPLAY=us01odcvde38511:120.0
+CITRIX_DISPLAY=:120
+CITRIX_CLIENT_PROD_ID=1
+CITRIX_CLIENT_IP_ADDR=10.205.134.120
+0
+14
+1563893428 ../source/stb/fifo_usage_spy.sv
+1563893428 ../source/stb/bind_spy.sv
+1563893428 ../source/stb/proba.sv
+1563893428 ../source/stb/top.sv
+1664567495 ../source/stb/stb.sv
+1563893428 ../source/stb/rom.sv
+1563893428 ../source/stb/ram.sv
+1563893428 ../source/design/parity.sv
+1563893428 ../source/design/dut.sv
+1563893428 ../source/design/clkg.sv
+1563893428 ../source/design/fifo.sv
+1563893428 ../source/design/parity_check.sv
+1639728544 /global/apps/vcs_2020.03-SP2-9/etc/unizfe/verilog/zceiClockPort.v
+1563893428 ../source/sources.f
+4
+1639729934 /global/apps/vcs_2020.03-SP2-9/linux64/lib/libvirsim.so
+1639729570 /global/apps/vcs_2020.03-SP2-9/linux64/lib/liberrorinf.so
+1639729523 /global/apps/vcs_2020.03-SP2-9/linux64/lib/libsnpsmalloc.so
+1639729565 /global/apps/vcs_2020.03-SP2-9/linux64/lib/libvfs.so
+1664568233 simv.daidir
+-1 partitionlib

@@ -1,0 +1,51 @@
+# © 2015-2019 Synopsys, Inc.
+# This Synopsys ZeBu Lab source code and all associated documentation are proprietary and
+# confidential to Synopsys, Inc. and may only be used pursuant to the terms and conditions
+# of a written license agreement with Synopsys, Inc. All other use, reproduction,
+# modification, or distribution of the Synopsys ZeBu Lab source code or the associated
+# documentation is strictly prohibited.
+
+#########################
+# For Basic Compilation #
+# #######################
+
+# Source settings.utf with description of the environment: zebu HW configuration, computation ressources,...
+source {./src/settings.utf}
+
+# VCS command
+vcs_exec_command {src/vcs_cmd.sh}
+
+# Declaration od the top module
+set_hwtop -module top 
+
+# Automatic number of modules to support multi-user for emulation runtime
+design_size -mode auto
+
+
+########################
+# For Full Compilation #
+# ######################
+
+# Activating debug features to capture waveforms
+debug -all true
+
+# Preventing optimization of write-only memories by synthesis (useful for testbench)
+memories -drop_write_only false
+
+# Enabling synthesis for zDPI (DPI calls in the design) 
+dpi_synthesis -enable all
+
+# Enabling synthesis for $display system task
+system_tasks -enable -task {$display}
+
+# Enabling System Verilog Assertions
+assertion_synthesis -enable all -never_fatal
+
+# Specifying signals that need to be forced during emulation runtime
+zforce -rtlname top.u_stb.proba_wr
+zforce -rtlname top.u_stb.proba_rd
+zforce -rtlname top.u_stb.rstn
+
+# Specifying signals that need to be read during emulation runtime (via dynamic-probes)
+probe_signals -rtlname top.u_stb.cnt_error_in
+probe_signals -rtlname top.u_stb.cnt_error_out

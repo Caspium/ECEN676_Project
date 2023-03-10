@@ -1,0 +1,50 @@
+# © 2015-2019 Synopsys, Inc.
+# This Synopsys ZeBu Lab source code and all associated documentation are proprietary and
+# confidential to Synopsys, Inc. and may only be used pursuant to the terms and conditions
+# of a written license agreement with Synopsys, Inc. All other use, reproduction,
+# modification, or distribution of the Synopsys ZeBu Lab source code or the associated
+# documentation is strictly prohibited.
+
+#########################
+# For Basic Compilation #
+# #######################
+
+# Source settings.utf with description of the environment: zebu HW configuration, computation ressources,...
+
+
+# VCS command
+
+
+# Declaration od the top module
+
+
+# Automatic number of modules to support multi-user for emulation runtime
+
+
+
+########################
+# For Full Compilation #
+# ######################
+
+# Activating debug features to capture waveforms
+
+
+# Preventing optimization of write-only memories by synthesis (useful for testbench)
+
+
+# Enabling synthesis for zDPI (DPI calls in the design) 
+
+
+# Enabling synthesis for $display system task
+
+
+# Enabling System Verilog Assertions
+
+
+# Specifying signals that need to be forced during emulation runtime
+
+
+# Specifying signals that need to be read during emulation runtime (via dynamic-probes)
+
+
+

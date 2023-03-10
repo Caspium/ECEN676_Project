@@ -1,0 +1,92 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_Q-2020.03-SP2-12
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = TRUE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /home/grads/c/caspium/lab-1-Caspium/vcs_uvm/myfsdb.fsdb
+syncTime = 0
+viewport = 0 23 1707 937 0 0 230 898
+activeNode = "top.dut_inst.u_fifo"
+activeScope = "top.dut_inst.u_fifo"
+activeFile = "../source/design/fifo.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 7
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 1
+Scope1 = "top.dut_inst.u_fifo"
+Scope2 = "top.dut_inst.u_fifo.u0_clkg"
+Scope3 = "tb"
+multipleSelection = 1 7 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "/home/grads/c/caspium/lab-1-Caspium/vcs_uvm/simv.daidir" 
+invokeDir = /home/grads/c/caspium/lab-1-Caspium/vcs_uvm
+[hb.sourceTab.1]
+scope = top.dut_inst.u_fifo
+File = /home/grads/c/caspium/lab-1-Caspium/source/design/fifo.sv
+Line = 8
+[nMemoryManager]
+WaveformFile = /home/grads/c/caspium/lab-1-Caspium/vcs_uvm/myfsdb.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1707 374 227 237
+primaryWindow = TRUE
+SessionFile = /home/grads/c/caspium/lab-1-Caspium/vcs_uvm/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

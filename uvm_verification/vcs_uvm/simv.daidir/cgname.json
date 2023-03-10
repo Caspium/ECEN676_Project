@@ -1,0 +1,92 @@
+{
+    "_vcs_DPI_package": [
+        "_vcs_DPI_package",
+        "uM9F1",
+        "module",
+        1
+    ],
+    "vcs_paramclassrepository": [
+        "vcs_paramclassrepository",
+        "hEeZs",
+        "module",
+        2
+    ],
+    "_vcs_unit__3229140331": [
+        "_vcs_unit__3229140331",
+        "U1m5L",
+        "module",
+        3
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        4
+    ],
+    "uvm_pkg": [
+        "uvm_pkg",
+        "zr7M1",
+        "module",
+        5
+    ],
+    "_vcs_msglog": [
+        "_vcs_msglog",
+        "zQBzV",
+        "module",
+        6
+    ],
+    "uvm_custom_install_recording": [
+        "uvm_custom_install_recording",
+        "nhiwz",
+        "module",
+        7
+    ],
+    "uvm_custom_install_verdi_recording": [
+        "uvm_custom_install_verdi_recording",
+        "EbjT3",
+        "module",
+        8
+    ],
+    "dut_if": [
+        "dut_if",
+        "e7EBi",
+        "module",
+        9
+    ],
+    "fifo_data_item_pkg": [
+        "fifo_data_item_pkg",
+        "BPvBD",
+        "module",
+        10
+    ],
+    "dut_we_pkg": [
+        "dut_we_pkg",
+        "JA2d0",
+        "module",
+        11
+    ],
+    "dut_re_pkg": [
+        "dut_re_pkg",
+        "haAt3",
+        "module",
+        12
+    ],
+    "tb": [
+        "tb",
+        "g7hgQ",
+        "module",
+        13
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module",
+        14
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        15
+    ]
+}
